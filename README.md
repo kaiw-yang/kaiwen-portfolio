@@ -12,7 +12,7 @@ A Chinese–English portfolio of websites and little games. All five featured pr
 
 ## Features
 
-Chinese/English language switching, project filters, live project screenshots, detailed project notes, and responsive layouts. Built with plain HTML, CSS, and JavaScript; no build step is required.
+Chinese/English language switching, project filters, live project screenshots, detailed project notes, and responsive layouts. Subtle entrance and scroll animations respect the reduced-motion setting, and project notes open as a swipeable bottom sheet on phones. Built with plain HTML, CSS, and JavaScript; no build step is required.
 
 ## GitHub Pages
 
@@ -36,4 +36,4 @@ Run `python3 -m http.server 4173` in this directory, then open `http://localhost
 
 这是 Kaiwen Yang 的中英双语个人作品集，展示三个网站和两款小游戏，五个项目均由 Kaiwen Yang 独立完成。
 
-网站支持中英文切换、作品分类、项目详情与手机浏览。使用原生 HTML、CSS 和 JavaScript，无需安装依赖或编译。可直接通过 GitHub Pages 发布。
+网站支持中英文切换、作品分类、项目详情与手机浏览，并带有入场与滚动动画（遵循系统"减少动态效果"设置）；手机上项目详情以可下滑关闭的底部面板打开。使用原生 HTML、CSS 和 JavaScript，无需安装依赖或编译。可直接通过 GitHub Pages 发布。
