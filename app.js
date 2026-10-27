@@ -1,4 +1,4 @@
-const readLanguage = () => {try {return localStorage.getItem('portfolio-language') === 'en' ? 'en' : 'zh';} catch {return 'zh';}};
+const readLanguage = () => {try {return localStorage.getItem('portfolio-language') === 'zh' ? 'zh' : 'en';} catch {return 'en';}};
 let lang = readLanguage(), filter = 'all', current = null;
 const motion = document.documentElement.classList.contains('js-motion');
 const revealed = new Set();
